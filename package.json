@@ -1,0 +1,20 @@
+{
+  "name": "node-rest-countries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.7.1",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}
